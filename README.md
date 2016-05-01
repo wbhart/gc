@@ -5,6 +5,7 @@ This is a series of garbage collector experiments in order to learn how they wor
 To make the experiments, check out the branch corresponding to the version you are interested in and then do:
 
    make gc
+
    make check 
 
 v0.1 - The first garbage collector is a very basic mark and sweep collector.
