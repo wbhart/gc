@@ -2,17 +2,12 @@
 
 This is a series of garbage collector experiments in order to learn how they work.
 
-To make the experiments do:
+To make the experiments, check out the branch corresponding to the version you are interested in and then do:
 
-   make gc1
+   make gc
+   make check 
 
-or
-
-   make gc2
-
-etc.
-
-1. The first garbage collector is a very basic mark and sweep collector.
+v0.1 - The first garbage collector is a very basic mark and sweep collector.
 
 * non-incremental
 * non-generational
